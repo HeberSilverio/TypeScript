@@ -14,6 +14,14 @@ Para a versão estável mais recente:
 
 `tsc --init`
 
+### O comando tsc copila ts para js
+
+`tsc`
+
+### O comando tsc -w faz a copilação automática
+
+`tsc -w`
+
 ### Base do projeto
 Para construir o compilador TypeScript, certifique-se de ter o Git e o Node.js instalados.
 
@@ -31,4 +39,12 @@ Instale ferramentas Gulp e dependências de desenvolvimento:
 npm install -g gulp
 npm ci
 ```
-20:03 - configurar diretorio raiz# TypeScript
+
+### Utilizando a versão mais atual do JavaScript
+
+tsconfig.json
+"target": "ESNext",
+
+
+minutos no vídeo 41:24
+https://youtu.be/lCemyQeSCV8
